@@ -17,7 +17,6 @@ const welcome_responses = [
 	'sup',
 	'whats up?',
 	'wassup',
-	'start',
 	'get_started',
 	'get started',
 ];
