@@ -133,6 +133,7 @@ async function sendQuestionMessage(req) {
 	});
 	return lib.sendButtonsOrQuickRepliesMessage(req, q.question, [], qrs);
 }
-server.listen(3000, () => {
-	console.log('Listening on port 3000');
+const p = process.env.PORT || 3000;
+server.listen(p, () => {
+	console.log(`Listening on port ${p}`);
 });
