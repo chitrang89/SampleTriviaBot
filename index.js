@@ -1,7 +1,7 @@
 const express = require('express');
 const server = express();
 const MxSdk = require('machaao');
-const lib = new MxSdk('58438d90-e691-11ea-a710-35af31b9e786', 'dev', server);
+const lib = new MxSdk('<----Bot Token----->', 'dev', server);
 const api = 'https://opentdb.com/api.php?amount=1&category=9&difficulty=easy&type=multiple';
 const rp = require('request-promise');
 const welcome_responses = [
